@@ -258,11 +258,11 @@ div.download_tab{
     display: grid;
     text-align: center;
     align-items: center; 
-    bottom:20px;
+    bottom:95px;
     position:absolute; 
-    left: 50%;
-    /* top:-100px; */
-    margin-left: -140px;
+    left: 20%;
+    top:2700px;
+    margin-left: -325px;
     width: 280px;
     gap:15px;
   
@@ -459,14 +459,13 @@ div.faqs form{
 	margin: 1rem auto;
     text-align: center;
     padding: 70px 45px;
-    /* display:block; */
-    font-size: 21px;
+    
     
 }
 
 .footer_2  a {
 	color: #999;
-	/* font-size: 0.9rem; */
+	font-size: 0.9rem;
     text-decoration: none;
     box-sizing: border-box;
     /* font-size: 13px; */
