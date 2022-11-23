@@ -17,11 +17,11 @@ header{
     height: 45px;
     margin:auto;
     padding: 26px 56px;
-    max-width: 3000px;
     padding-top: 26 56px;
     position: relative;
     right: 0;
     top:0;
+    width: 100%;
     position: absolute;
     z-index: 5;
     width:100%;
@@ -36,7 +36,7 @@ header a.logo{
 
 header .logo svg{
     fill:#e50914;
-    height: 70px;
+    height: 37px;
     
     /* width: 30px; */
     /* width:108px; */
@@ -57,8 +57,6 @@ header .logo svg{
     border-radius: 3px;
     /* margin-top: 50px; */
     display: inline-block;
-    color: white;
-    font-size: 30px;
    
 }
 
@@ -80,7 +78,7 @@ div.splash div.background img{
 }
 div.splash div.content{
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 655px;
     padding: 75px 0;
     position: relative;
     text-align: center;
@@ -89,29 +87,34 @@ div.splash div.content{
     font-weight: 400;
     position: absolute;
     inset:0;
+    left: 50%;
+    margin-left: -327.5px;
     align-items: center;
     text-align: center;
     display: grid;
    
 
 }
+div.splash h1, div.splash h2 , div.splash h3{
+    font-weight: normal;
+}
 div.splash h1{
-    font-size: 70px;
+    font-size: 3.125rem;
     margin: auto;
+    font-weight: bold;
     text-align: center;
-    max-width: 640px;
-    
     
 }
 div.splash h2{
-    font-size: 26px;
-    margin:16px 0px;
+    font-size:  1.625rem;
+    margin-top:13px;
+    margin-bottom: 29px;
     text-align: center;
 
 }
 
 div.splash h3{
-    font-size: 24px;
+    font-size:1.2rem;
     padding: 0 10%;
     font-weight: 400;
     margin: 0 auto;
@@ -120,7 +123,7 @@ div.splash h3{
 }
 div.splash input{
     height: 80px;
-    padding: 10px 10px 0;
+    padding: 15px 10px ;
     width: 100%;
     appearance: none;
     border: 1px solid #8c8c8c;
@@ -128,11 +131,12 @@ div.splash input{
     box-sizing: border-box;
     color: #000;
     display: block;
-    font-size: 16px;
+    font-size:1.2rem;
     box-shadow: none;
 }
 div.splash button {
-    font-size: 30px;
+    font-size: 1.625rem;
+    padding:12px 26px ;
     min-height: 40px;
     min-width: 74px;
     background-color: #e50914;
@@ -143,13 +147,12 @@ div.splash button {
     font-weight: 400;
     text-align: center;
     text-decoration: none;
-    user-select: none;
-    vertical-align: middle;
-    overflow: visible; 
+    
     
 }
 div.splash form{
     max-width: 950px;
+    margin-top: 20px;
     padding-top: 0.85rem;
     display: grid;
     grid-template-columns: 5fr 2fr;
@@ -171,7 +174,7 @@ div.splash form{
 }
 
 div.headings_content2 h1{
-    font-size: 80px;
+    font-size: 3.125rem;
     font-weight: 500;
     margin-bottom: 120px;
     z-index: 3;
@@ -188,7 +191,7 @@ div.headings_content2 h1{
 
 
 div.headings_content2 h2{
-    font-size: 40px;
+    font-size: 1.625rem;
     font-weight: 400;
     text-align: center;
     /* margin: 0.75em 0 0.25em; */
@@ -229,7 +232,7 @@ div.download{
 }
 
 div.download h1{
-    font-size:80px;
+    font-size:3.125rem;
     line-height: 1.1;
     margin-bottom: 0.5rem;
     margin: 0 0 0.4em;
@@ -241,7 +244,7 @@ div.download h1{
 }
 
 div.download h2{
-    font-size: 40px;
+    font-size:1.625rem;
     font-weight: 400;
     margin: 0.75em 0 0.25em;
     text-align: center;
@@ -255,11 +258,11 @@ div.download_tab{
     display: grid;
     text-align: center;
     align-items: center; 
-    bottom:-1400px;
+    bottom:20px;
     position:absolute; 
-    left: 20%;
+    left: 50%;
     /* top:-100px; */
-    /* margin-left: -320px; */
+    margin-left: -140px;
     width: 280px;
     gap:15px;
   
@@ -284,7 +287,7 @@ div.everywhere{
 
 
 div.everywhere h1{
-    font-size:80px;
+    font-size:3.125rem;
     line-height: 1.1;
     margin-bottom: 0.5rem;
     margin: 0 0 0.4em;
@@ -296,7 +299,7 @@ div.everywhere h1{
 }
 
 div.everywhere h2{
-    font-size: 40px;
+    font-size:1.625rem;
     font-weight: 400;
     margin: 0.75em 0 0.25em;
     width: 1000px;
@@ -315,7 +318,7 @@ div.kids{
 
 
 div.kids h1{
-    font-size:80px;
+    font-size:3.125rem;
     line-height: 1.1;
     margin-bottom: 0.5rem;
     margin: 0 0 0.4em;
@@ -326,7 +329,7 @@ div.kids h1{
 }
 
 div.kids h2{
-    font-size: 42px;
+    font-size: 1.625rem;
     font-weight: 400;
     margin: 0.75em 0 0.25em;
     width: 100%;
@@ -340,7 +343,7 @@ div.faqs{
    
 }
 div.faqs h1{
-    font-size: 80px;
+    font-size: 3.125rem;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -394,7 +397,7 @@ div.question input[type="checkbox"]{
  
 
 div.cta h3{
-    font-size: 24px;
+    font-size:1.2rem;
     padding: 0 10%;
     font-weight: 400;
     margin:40px 0 20px;
@@ -404,11 +407,16 @@ div.cta h3{
 
 div.cta input{
     height: 80px;
-    padding: 15px 10px;
-    font-size: 1.2rem;
-    /*   */
-    max-width: 600px;
-    margin-left: 60px;
+    padding: 15px 10px ;
+    width: 100%;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size:1.2rem;
+    box-shadow: none;
 }
 
 div.cta input:focus{
@@ -418,20 +426,28 @@ div.cta input:focus{
 }
 
 div.cta button {
-    font-size: 1.62rem;
-    padding:12px 26px;
+    font-size: 1.625rem;
+    padding:12px 26px ;
     min-height: 40px;
     min-width: 74px;
     background-color: #e50914;
-    border: none;
-    border-radius:4px;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    border: 0;
+    border-radius: 2px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;;
 }
    
-div.cta form{
-    position: relative;
-    display: grid;
+.cta form{
+    max-width: 950px;
     margin-top: 20px;
-    grid-template-columns: 1fr 1fr;
+    padding-top: 0.85rem;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    font-size: 1.625rem;
+    font-weight: 400;
 }
 
 div.faqs form{
